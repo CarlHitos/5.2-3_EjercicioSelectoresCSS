@@ -1,0 +1,70 @@
+body {
+    margin: 5% 20% 5% 20%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:burlywood ;
+    padding: auto;
+}
+
+p {
+    background-color: yellow;
+}
+
+.special {
+    font-size: 24px;
+}
+
+div .highlight {
+    background-color: green;
+}
+
+[href] {
+    color: aqua;
+}
+
+[src$=".jpg"] {
+    border: solid 2px red;
+}
+
+a:hover {
+    background-color: blueviolet;
+}
+
+a:visited {
+    color: gray;
+}
+
+p::first-line {
+    font-weight: bold;
+    background-color: blue;
+}
+
+ul li:first-child,
+ol li:first-child {
+    font-style: italic;
+}
+
+input[type="text"]:focus {
+    border: 2px solid blue;
+}
+
+.warning::before {
+    content: "🚨";
+}
+
+div p:last-child {
+    background-color: red;
+}
+
+.note::after {
+    content: "📜";
+}
+
+.quote::first-line {
+    font-weight: bold;
+    color:chartreuse; 
+    background-color: black;
+}
+
+li:nth-child(2n+1) {
+    font-weight: bold;
+}
